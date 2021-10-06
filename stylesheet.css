@@ -1,0 +1,42 @@
+#left  {
+	
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #FFFFFE;
+	border: solid 2px green;
+		
+		} 
+		
+#center {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #ECF1EF;
+	border: solid 2px green;
+		
+		}
+		
+#right  {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #EBECE4;
+	border: solid 2px green;
+	
+		}
+		
+p::first-letter /*Needs a double-colon :: the First Letter */{
+	font-weight: bold;
+	font-size: 24px;
+	
+}
+/*Needs a double-colon :: the First Letter */
+
+p:first-line /*Needs a double-colon :: the First Letter */{
+	color: red;
+	
+}
